@@ -18,7 +18,7 @@ import java.io.InputStreamReader;
  */
 public class Client {
      public static void main(String[] args) throws Exception{
-        new Client("localhost", 19191).run();
+        new Client("192.168.1.183", 19191).run();
     }
     private  final String host;
     private  final int port;

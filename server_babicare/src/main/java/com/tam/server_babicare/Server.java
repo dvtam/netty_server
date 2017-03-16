@@ -17,6 +17,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 public class Server {
     public static void main(String[] args) throws InterruptedException{
         new Server(19191).run();
+        System.out.println("Server runing . . .\nPort: 19191");
     }
     private final int port;
 
